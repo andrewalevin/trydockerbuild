@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.10-slim
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ RUN echo '🍏🍎🍐🍊🍋🍌'
 
 #RUN pip install pyyaml, xxhash, aiohttp, brotli, pycryptodomex
 
-RUN pip install aiohttp==3.10.6rc0
+RUN pip install aiohttp==3.9.0rc0
 
 RUN pip install brotli
 
