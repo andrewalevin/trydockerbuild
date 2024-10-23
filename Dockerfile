@@ -8,8 +8,6 @@ ENV PYTHONUNBUFFERED=1
 
 RUN pip install pyyaml
 
-RUN pip install xxhash
-
 RUN pip install aiohttp
 
 RUN pip install brotli
