@@ -14,7 +14,7 @@ RUN echo '🍏🍎🍐🍊🍋🍌'
 
 #RUN pip install pyyaml, xxhash, aiohttp, brotli, pycryptodomex
 
-RUN pip install aiohttp==3.9.0rc0
+RUN pip install aiohttp
 
 RUN pip install brotli
 
