@@ -39,7 +39,7 @@ jobs:
         push: true
         tags: |
             andrewlevin/trydockerbuild:latest
-        platforms: linux/arm64,linux/amd64,linux/386,linux/arm/v7
+        platforms: linux/arm64,linux/amd64
             
         
 
